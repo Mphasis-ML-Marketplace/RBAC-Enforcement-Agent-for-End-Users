@@ -6,7 +6,7 @@ In UI-based systems, resources and actions are well-defined through buttons, for
 
 This solution combines LLM-powered intent extraction with enterprise-grade access control to securing natural language interfaces. It converts user queries into structured action-resource pairs, which are evaluated against fine-grained Cedar policies using Amazon Verified Permissions (AVP). With built-in integration to Amazon Cognito, user identities are seamlessly authenticated via access tokens and mapped directly to authorization logic, ensuring secure and compliant access to backend services. 
 
-##Key highlights:  
+## Key highlights:  
 
 LLM-powered Action-Resource Extraction: Translates free-form user queries into structured action-resource pairs for accurate enforcement.  
 
