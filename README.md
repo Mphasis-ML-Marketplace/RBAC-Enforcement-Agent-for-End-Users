@@ -1,4 +1,4 @@
-# RBAC-for-conversational-systems
+# RBAC-Enforcement-Agent-for-End-Users
 
 In modern conversational systems (GenAI chatbots), service requests expressed in natural language must be interpreted to identify the resource a user is trying to access and the action they intend to perform. The solution takes a user query and an access token (from Amazon Cognito), extracts the intended action and resource using an LLM, and evaluates the request using Amazon Verified Permissions (AVP). AVP, with Cognito as the identity source and Cedar-based policy definitions, ensures that authorization decisions are enforced consistently and centrally. Developers can integrate this into their GenAI applications to streamline compliance and deliver secure conversational experiences. 
 
